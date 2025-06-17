@@ -2,7 +2,7 @@
 set -e
 version=v$(date '+%y.%m.%d')
 mkdir -p release
-pack_name="Arrested Development"
+pack_name="FORK OF: Arrested Development"
 ## Support
 mkdir -p overlay_48
 cp -pfr data/ overlay_48/
